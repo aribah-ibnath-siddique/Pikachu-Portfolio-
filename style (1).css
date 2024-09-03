@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{ margin: 0; padding: 0; }
+body {
+ background-color:#F8F8F4; 
+  text-align: center;
+  text-color: #000000FF;
+  font-family: 'Arial', sans-serif;
+  
+}
+
+header {
+  color: #000000FF;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #b1e5e6FF;
+  margin-bottom: 3em;
+  padding: 1em;
+  margin-top: 0; margin-bottom: 0; text-align: center;
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  }
+#grad {
+  background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+  }
+
+  /*Applies a blue shadow 1px horizontally and 1px vertically */
+h1 {
+  text-shadow: 1px 1px #22839c;
+}
+
+#yellow {
+  text-align: center;
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 15%;
+  border: 3px solid #30d3d9FF;
+  margin-bottom: 2em;
+ margin-right:20%; margin-left:20%;
+  margin-top: 3em;
+
+}
+
+img {
+  text-align: center;
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 15%;
+  border: 3px solid #30d3d9FF;
+  margin-bottom: 2em;
+ margin-right:20%; margin-left:20%;
+  margin-top: 3em;
+  }
+
+main { margin-top: 0; margin-bottom: 0;margin-right:20%; margin-left:20%;}
+p {
+  color: #000000FF;
+  background-color: #a9d6d5FF;
+  margin-top: 2em;
+  padding: 1em;
+  border-radius: 15%;
+  margin-bottom: 2em;
+
+}
+
+.pikachu { 
+  color: #000000FF;
+  background-color: #a9d6d5FF;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #a9d6d5FF;
+  overflow: hidden;
+  padding: 1em;
+  }
+
+li { 
+  display: inline;
+  }
+
+li a {
+  text-decoration: none;
+  color: #000000FF;
+  font-size: 1.3em;
+  padding: 1em;
+  }
+li a:hover {
+  background-color: #bfd67aFF;
+  }
+a {
+  color: #0000ffFF
+    } 
